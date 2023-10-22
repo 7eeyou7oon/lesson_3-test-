@@ -1,0 +1,58 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+/* Свойство для тега ul */
+ul {
+    color: antiquewhite; /*Цвет для списка*/
+    /* color: aqua; */
+}
+
+li,a {
+    color: rgb(250, 144, 5);
+}
+
+#main {
+    color: black;
+}
+
+.index {
+    font-size: 38px;
+    color: violet;
+}
+
+h1, #main, .index {
+    border: 3px solid yellow;
+}
+
+h1 {
+    background-color: black;
+}
+
+h1.index1 {
+    background-color: yellow;
+}
+
+li a.about, #main {
+    font-size: 40px;
+}
+
+.index1 {
+    color: blue;
+}
+
+body .index1 {
+    color: white;
+}
+
+html body div h1.index1 {
+    color: blueviolet!important;
+}
+
+html div h1.index1 {
+    color: red!important;
+}
